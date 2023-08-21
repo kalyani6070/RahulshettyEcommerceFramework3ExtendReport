@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Submit Order Test(failed)" parallel="tests">
+    <classes>
+      <class name="KalyaniAcademy.tests.SubmitOrderTest">
+        <methods>
+          <include name="SubmitOrder"/>
+          <include name="teardown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- KalyaniAcademy.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
